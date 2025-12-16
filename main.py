@@ -10,10 +10,10 @@ def run(playwright: Playwright) -> None:
     #page.get_by_role("link", name="NUB Student Portal - Login").click()
     page.get_by_placeholder("Student ID").click()
     #studemtn id
-    page.get_by_placeholder("Student ID").fill("41220300364")
+    page.get_by_placeholder("Student ID").fill("41220300000")
     page.get_by_placeholder("Password").click()
     #password
-    page.get_by_placeholder("Password").fill("99809062")
+    page.get_by_placeholder("Password").fill("9980000")
     page.get_by_placeholder("Password").press("Enter")
     page.get_by_role("link", name="TER Fill Up").click()
     # course code
